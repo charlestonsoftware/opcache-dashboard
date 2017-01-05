@@ -28,7 +28,7 @@ add_action('init', array('OPcache_dashboard', 'init') );
 class OPcache_dashboard {
 	static $instance;
 
-	const PHP_URL = 'http://php.shield-9.org';
+	const PHP_URL = 'http://php.net/manual/en/';
 
 	const VERSION = '0.3.2';
 

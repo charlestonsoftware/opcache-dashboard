@@ -28,7 +28,7 @@ make_button( esc_html__('Force Invalidate', 'opcache'), 'invalidate_force');
 				<?php printf(
 					esc_html__('Please refer to %s for information about the difference options.', 'opcache'),
 					sprintf('<a href="%1$s" target="_blank">%2$s</a>',
-						esc_url( OPcache_dashboard::PHP_URL . '/ref.opcache'),
+						esc_url( OPcache_dashboard::PHP_URL . '/book.opcache.php'),
 						esc_html__('the PHP.net', 'opcache')
 					)
 				); ?>
